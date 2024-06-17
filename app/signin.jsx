@@ -1,12 +1,10 @@
-import Head from 'next/head';
+// app/singin.jsx
+import React from "react";
 
 export default function SignIn() {
     return (
         <>
-            <Head>
-                <title>Sign In - Netflix</title>
-            </Head>
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white overflow-hidden">
                 <div className="bg-gray-800 p-8 rounded-md shadow-md w-full max-w-md">
                     <h1 className="text-3xl mb-6 text-center">Sign In</h1>
                     <form>
